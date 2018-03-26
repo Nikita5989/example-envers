@@ -1,8 +1,16 @@
 Example JPA Envers
 ---
-In this example you can see how to use Envers for Auditing your tables.
+In this example you can see how to use Envers for Auditing your tables, and I used the following technologies:
 
-This is a Spring Boot Application and it is configured with mysql database.
+* Java 9.0.4
+* Spring Boot 1.5.10.RELEASE
+* Spring Data JPA
+* Hibernate Envers 5.0.12.Final
+* MySQL Database
+* _...For more details please check it out `pom.xml` file..._
+
+
+This is a Spring Boot Application and is configured with mysql database.
 
 There are the following entities:
 
@@ -34,7 +42,7 @@ Anyway you can find the script in `src/main/resources/scripts/database.sql` as w
 
 Rest endpoints
 ---
-I used the postman as a client to test the endpoints, you can import the collection, the file is in:
+I used **postman** client to test the endpoints, you can import the collection, the file is in:
 ```
 /resources/endpoints/collection[postmanv2.1].json
 ```
